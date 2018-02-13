@@ -4,7 +4,7 @@
 <head>
 
     <title>Calculator</title>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
 
     <script type="text/javascript">
 
@@ -13,6 +13,14 @@
             let num = document.getElementById("n1");
 
             num.value = Math.pow(num.value, 3);
+
+        }
+
+        function cuarta() {
+
+            let num = document.getElementById("n2");
+
+            num.value = Math.pow(num.value, 4);
 
         }
 
@@ -25,9 +33,16 @@
 
     Number:
 
-    <input type="text" id="n1"/>
+    <input type="text" id="n1" />
     <p>
         <button onclick="cube()"> x^3 </button>
+    </p>
+
+    Number:
+
+    <input type="text" id="n2" />
+    <p>
+        <button onclick="cuarta()"> x^4 </button>
     </p>
 
 </body>
