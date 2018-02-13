@@ -23,6 +23,13 @@
             num.value = Math.sin(num.value);
 
         }
+        function cuarta() {
+
+            let num = document.getElementById("n3");
+
+            num.value = Math.pow(num.value, 4);
+
+        }
 
     </script>
 
@@ -43,6 +50,14 @@
     <input type="text" id="n2" />
     <p>
         <button onclick="sinus()"> sin(x) </button>
+
+    </p>
+
+    Number:
+
+    <input type="text" id="n3" />
+    <p>
+        <button onclick="cuarta()"> x^4 </button>
     </p>
 
 </body>
